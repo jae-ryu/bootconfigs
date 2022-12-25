@@ -82,7 +82,7 @@ renamed = "襁 "
 deleted = " "
 
 [custom.tztime]
-command = 'date +"%b %d %Y %l:%M%p (%Z)"'
+command = 'date +"%m/%d/%g %l:%M%p (%Z)"'
 when = "true"
 format = '[\[$symbol($output)\]](green)'
 
