@@ -118,6 +118,37 @@ fi
 
 eval "$(starship init bash)"
 
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# aliases
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+alias srcbash='source ~/.bashrc'
+alias apt-get='sudo apt-get'
+alias c='clear'
+## Use a long listing format ##
+alias ll='ls -la'
+ 
+## Show hidden files ##
+alias l.='ls -d .* --color=auto'
 
-fi
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+
+## Colorize the grep command output for ease of use (good for log files)##
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+# git related 
+alias ga='git add'
+alias gac='git commit'
+alias gap='git push'
+
+alias asl='aws sso login'
+
+# random workflows
+alias repeat='for i in {1..10}; do $REPEAT; date ; sleep 60; done'
