@@ -1,0 +1,21 @@
+# ~/.aws/
+[profile one]
+sso_start_url = https://url
+sso_region = <region>
+sso_account_id = <account_id>
+sso_role_name = <role_name>
+region = <region>
+output = json
+
+[profile two]
+sso_start_url = https://url
+sso_region = <region>
+sso_account_id = <account_id>
+sso_role_name = <role_name>
+region = <region>
+output = json
+
+[personal]
+region=<region>
+output=json
+
