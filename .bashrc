@@ -150,10 +150,18 @@ alias fgrep='fgrep --color=auto'
 
 # git related 
 alias ga='git add'
-alias gac='git commit'
+alias gc='git commit'
+alias gac='git add . && git commit'
 alias gap='git push'
 
 alias asl='aws sso login'
 
+# go to GO dir
+alias gogo='cd $GOPATH'
+
 # random workflows
 alias repeat='for i in {1..10}; do $REPEAT; date ; sleep 60; done'
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# pyenv & virtualwrapper
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
